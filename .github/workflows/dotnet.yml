@@ -16,9 +16,12 @@ jobs:
 
       - name: Restore dependencies
         run: dotnet restore
+        working-directory: ./ConsoleApp1
 
       - name: Build the application
         run: dotnet build --no-restore --configuration Release
+        working-directory: ./ConsoleApp1
 
       - name: Run the application
         run: dotnet run --no-build --configuration Release
+        working-directory: ./ConsoleApp1
