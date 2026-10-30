@@ -76,7 +76,7 @@ namespace Arrays
             p2.Method2();
 
             Console.WriteLine("Press any key to exit...");
-            Console.ReadKey();
+            //Console.ReadKey();
 
             int x = (int)Math.Ceiling(4/3*1.0);
         }
